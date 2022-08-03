@@ -1,8 +1,9 @@
 # Random Words CLI
 
-[![Test CLI](https://github.com/mskian/deno-random-words-cli/actions/workflows/test.yml/badge.svg)](https://github.com/mskian/deno-random-words-cli/actions/workflows/test.yml)  ![Deno](https://img.shields.io/badge/Deno-464647?style=for-the-badge&logo=deno&logoColor=white)  
+[![Test CLI](https://github.com/mskian/deno-random-words-cli/actions/workflows/test.yml/badge.svg)](https://github.com/mskian/deno-random-words-cli/actions/workflows/test.yml)
+![Deno](https://img.shields.io/badge/Deno-464647?style=for-the-badge&logo=deno&logoColor=white)
 
-Random Words CLI Build using Deno  
+Random Words CLI Build using Deno
 
 ## Prerequisites
 

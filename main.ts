@@ -65,6 +65,10 @@ async function main() {
         "automation";
       await getPronunciation(Pronunciation);
       break;
+    case null:
+    case "":
+      console.log("Enter a Valid Command");
+      break;
     default:
       console.log(displayHelpMsg());
   }
