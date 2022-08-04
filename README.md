@@ -29,11 +29,23 @@ cd deno-random-words-cli
 # Get Random Words
 deno run --allow-net --allow-read main.ts -r
 
+(or)
+
+deno task random
+
 #Get Pronunciation for a Word
 deno run --allow-net --allow-read main.ts -p "Hello World"
 
+(or)
+
+deno task pronunciation "Hello World"
+
 # Help Section
 deno run --allow-net --allow-read main.ts -h
+
+(or)
+
+deno task help
 ```
 
 - install CLI via Deno Script installer -

@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "random": "deno run --allow-net --allow-read main.ts -r",
+    "pronunciation": "deno run --allow-net --allow-read main.ts -p",
+    "help": "deno run --allow-net --allow-read main.ts -h"
+  }
+}
