@@ -4,6 +4,7 @@ import {
   bold,
   brightBlue,
   brightGreen,
+  brightMagenta,
   brightYellow,
 } from "https://deno.land/std@0.150.0/fmt/colors.ts";
 import { wait } from "https://deno.land/x/wait@0.1.12/mod.ts";
@@ -38,7 +39,7 @@ async function getPronunciation(Pronunciation: string) {
       console.log("Enter a Any Word to Get Pronunciation -", "Hello World");
     } else {
       spinner.stop();
-      console.log(getPronounce);
+      console.log(brightMagenta(bold(getPronounce)));
     }
   } else {
     spinner.stop();
