@@ -49,7 +49,8 @@ deno task help
 ```
 
 - install via Deno Modules - <https://deno.land/x/randomwords>
-- Learn about deno Script installer - <https://deno.land/manual/tools/script_installer>
+- Learn about deno Script installer -
+  <https://deno.land/manual/tools/script_installer>
 
 ```sh
 deno install --allow-net --name randomwords https://deno.land/x/randomwords/main.ts
@@ -78,12 +79,18 @@ randomwords -h
 deno uninstall randomwords
 ```
 
-- Use directly without download or install
+- Use directly without download or install Locally by using `deno.land` or `nest.land`
 
 ```sh
 deno run --allow-net https://deno.land/x/randomwords/main.ts -r
 deno run --allow-net https://deno.land/x/randomwords/main.ts -p "Hello World"
 deno run --allow-net https://deno.land/x/randomwords/main.ts -h
+```
+
+```sh
+deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.2/main.ts -r
+deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.2/main.ts -p "Hello World"
+deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.2/main.ts -h
 ```
 
 ## Credits
