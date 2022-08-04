@@ -48,8 +48,14 @@ deno run --allow-net --allow-read main.ts -h
 deno task help
 ```
 
-- install CLI via Deno Script installer -
-  <https://deno.land/manual/tools/script_installer>
+- install via Deno Modules - <https://deno.land/x/randomwords>
+- Learn about deno Script installer - <https://deno.land/manual/tools/script_installer>
+
+```sh
+deno install --allow-net --name randomwords https://deno.land/x/randomwords/main.ts
+```
+
+- install CLI via Cloned repo or download (For Development)
 
 ```sh
 deno install --allow-net --name randomwords main.ts
@@ -64,6 +70,20 @@ randomwords -p "Hello World"
 
 # Help Section
 randomwords -h
+```
+
+## uninstall
+
+```sh
+deno uninstall randomwords
+```
+
+- Use directly without download or install
+
+```sh
+deno run --allow-net https://deno.land/x/randomwords/main.ts -r
+deno run --allow-net https://deno.land/x/randomwords/main.ts -p "Hello World"
+deno run --allow-net https://deno.land/x/randomwords/main.ts -h
 ```
 
 ## Credits
