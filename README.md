@@ -88,9 +88,9 @@ deno run --allow-net https://deno.land/x/randomwords/main.ts -h
 ```
 
 ```sh
-deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.2/main.ts -r
-deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.2/main.ts -p "Hello World"
-deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.2/main.ts -h
+deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.3/main.ts -r
+deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.3/main.ts -p "Hello World"
+deno run --allow-net https://x.nest.land/deno-random-words-cli@0.0.3/main.ts -h
 ```
 
 ## Credits

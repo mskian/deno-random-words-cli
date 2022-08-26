@@ -1,12 +1,12 @@
 const { args } = Deno;
-import { parse } from "https://deno.land/std@0.150.0/flags/mod.ts";
+import { parse } from "https://deno.land/std@0.153.0/flags/mod.ts";
 import {
   bold,
   brightBlue,
   brightGreen,
   brightMagenta,
   brightYellow,
-} from "https://deno.land/std@0.150.0/fmt/colors.ts";
+} from "https://deno.land/std@0.153.0/fmt/colors.ts";
 import { wait } from "https://deno.land/x/wait@0.1.12/mod.ts";
 
 const spinner = wait("Generating Words").start();

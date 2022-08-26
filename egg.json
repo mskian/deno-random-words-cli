@@ -4,7 +4,7 @@
   "entry": "./main.ts",
   "description": "Get Random Words with Definition and Pronunciation and Get Pronunciation for a Word",
   "homepage": "https://github.com/mskian/deno-random-words-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "releaseType": null,
   "unstable": false,
   "unlisted": false,
